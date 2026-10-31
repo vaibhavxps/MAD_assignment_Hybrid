@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trichy Guide - MAD Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h2>Trichy Heritage & Food</h2>
+        <small>Vaibhav Kumar | MCA 3rd Year | NIT Trichy</small>
+        <small>Mobile App Development Professor: Saroja Mam</small>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <button onclick="show('home')">Home</button>
+        <button onclick="show('heritage')">Heritage</button>
+        <button onclick="show('food')">Food</button>
+    </nav>
+
+    <!-- Content Area -->
+    <div id="content">
+        
+        <!-- Home Section -->
+        <section id="home" class="show">
+            <h3>Welcome to Tiruchirappalli</h3>
+            <p>Exploring our city's history and local food. Built for MAD Assignment (NIT Trichy).</p>
+            <img src="assets/rockfort.jpg" alt="Rockfort" style="width:100%; border-radius:8px; margin-top:10px;">
+            <div style="margin-top:10px; font-size:0.8em; color:#555;">📍 Map Marker: Trichy City Center (10.817° N, 78.697° E)</div>
+        </section>
+
+        <!-- Heritage Section -->
+        <section id="heritage" class="hide">
+            <h3>Heritage Sites</h3>
+            <div class="card">
+                <h4>Rockfort Temple</h4>
+                <img src="assets/rockfort.jpg" alt="Rockfort" style="width:100%; border-radius:4px; margin-bottom:5px;">
+                <p>Ancient rock-cut temple. 400+ steps to the top.</p>
+                <small>📍 Map Marker: 10.828° N, 78.684° E</small>
+            </div>
+            <div class="card">
+                <h4>Srirangam Temple</h4>
+                <img src="assets/srirangam.webp" alt="Srirangam" style="width:100%; border-radius:4px; margin-bottom:5px;">
+                <p>Largest functioning Hindu temple in the world.</p>
+                <small>📍 Map Marker: 10.860° N, 78.688° E</small>
+            </div>
+            <div class="card">
+                <h4>Jambukeswarar</h4>
+                <img src="assets/jambukeswarar.jpg" alt="Jambukeswarar" style="width:100%; border-radius:4px; margin-bottom:5px;">
+                <p>Famous for the water lingam and architecture.</p>
+                <small>📍 Map Marker: 10.850° N, 78.705° E</small>
+            </div>
+        </section>
+
+        <!-- Food Section -->
+        <section id="food" class="hide">
+            <h3>Local Food Spots</h3>
+            <div class="card">
+                <h4>Iruttu Kadai</h4>
+                <img src="assets/iruttu.jpg" alt="Iruttu Kadai" style="width:100%; border-radius:4px; margin-bottom:5px;">
+                <p>Famous Halwa shop near Rockfort. Try the original taste.</p>
+                <small>📍 Map Marker: 10.818° N, 78.685° E</small>
+            </div>
+            <div class="card">
+                <h4>Banana Leaf Meals</h4>
+                <img src="assets/banana.jpg" alt="Banana Leaf" style="width:100%; border-radius:4px; margin-bottom:5px;">
+                <p>Available near Thillai Nagar and Srirangam.</p>
+                <small>📍 Map Marker: 10.805° N, 78.695° E</small>
+            </div>
+            <div class="card">
+                <h4>Street Food</h4>
+                <img src="assets/street.jpg" alt="Street Food" style="width:100%; border-radius:4px; margin-bottom:5px;">
+                <p>Murukku and local snacks near Central Bus Stand.</p>
+                <small>📍 Map Marker: 10.795° N, 78.702° E</small>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Submitted by: Vaibhav Kumar, MCA 3rd Year, NIT Trichy</p>
+        <p>Mobile App Development Professor: Saroja Mam</p>
+        <p>MAD Assignment - Hybrid App Conversion</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

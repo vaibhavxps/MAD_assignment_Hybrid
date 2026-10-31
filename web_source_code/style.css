@@ -1,0 +1,75 @@
+/* Simple student style CSS */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background: #004080; /* NIT Blue */
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+}
+
+header small {
+    font-size: 0.8em;
+    display: block;
+    margin-top: 5px;
+}
+
+nav {
+    display: flex;
+    background: #0056b3;
+}
+
+nav button {
+    flex: 1;
+    border: none;
+    background: none;
+    color: white;
+    padding: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+nav button:active {
+    background: rgba(255,255,255,0.2);
+}
+
+#content {
+    padding: 15px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.card {
+    background: white;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.card h4 {
+    margin-top: 0;
+    color: #004080;
+}
+
+section {
+    display: none;
+}
+
+section.show {
+    display: block;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    font-size: 0.8em;
+    color: #777;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+}
